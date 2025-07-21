@@ -33,12 +33,12 @@ a {
 
 .aw {
   display: flex;
-  margin: 48px;
+  padding: 48px;
   font:Roboto;
   background: #1f2937;
   color: #F9FAF8;
   justify-content: space-between;
-  align-content: center;
+  gap: 24px;
 }
 
 .awleft {
@@ -56,4 +56,13 @@ a {
 .awleftbottom {
   font-size: 18px;
   color: #E5E7EB;
+}
+
+button {
+  background-color: #3882F6;
+  border-radius: 8px;
+}
+
+.su {
+  background-color: #3882F6;
 }
