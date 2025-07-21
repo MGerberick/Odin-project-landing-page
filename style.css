@@ -14,14 +14,46 @@ body {
   align-items: center;
 }
 
-a {
-  text-decoration: none;
-  color: #E5E7EB;
-}
-
 .links {
   display: flex;
   font-size: 18px;
   justify-content: space-between;
   gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.aw {
+  display: flex;
+  margin: 48px;
+  font:Roboto;
+  background: #1f2937;
+  color: #F9FAF8;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.awleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.awltop {
+  font: Roboto;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.awleftbottom {
+  font-size: 18px;
+  color: #E5E7EB;
 }
