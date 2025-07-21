@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 .header {
   font:Roboto;
   background: #1f2937;
@@ -6,6 +10,18 @@
   font-weight: 900;
   display: flex;
   justify-content: space-around;
-  
+  padding: 15px;
+  align-items: center;
 }
 
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.links {
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  gap: 20px;
+}
