@@ -80,9 +80,13 @@ img {
   flex-direction: column;
   text-align: center;
   padding: 24px;
+}
+
+.rititle {
   font: Roboto;
   font-size: 36px;
   color: #1F2937;
+  font-weight: 900;
 }
 
 .ribody {
@@ -131,3 +135,28 @@ img {
   flex-wrap: wrap;
 }
 
+.iq {
+  display: flex;
+  justify-content: center;
+  background-color: #E5E7EB;
+}
+
+.q {
+  display: flex;
+  flex-direction: column;
+  /*background-color: #E5E7EB;*/
+  flex-wrap: wrap;
+}
+
+.quote {
+  font: 36px;
+  color: #1F2937;
+  font-weight: light;
+  font-style: italic;
+  width: 400px;
+}
+
+.attribution {
+  text-align: right;
+  font-weight: bold;
+}
