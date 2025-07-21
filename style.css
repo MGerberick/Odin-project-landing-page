@@ -67,12 +67,15 @@ button {
   background-color: #3882F6;
 }
 
-body.content.aw.awimage {
+.body.content.aw.awimage.img {
+  border-style: none;
   border-radius: none;
 }
 
 img {
   border-radius: 8px;
+  border-color: #3882F6;
+  border-style: solid;
 }
 
 .ri {
@@ -139,18 +142,18 @@ img {
   display: flex;
   justify-content: center;
   background-color: #E5E7EB;
+  padding: 60px;
 }
 
 .q {
   display: flex;
+  color: #1F2937;
   flex-direction: column;
-  /*background-color: #E5E7EB;*/
   flex-wrap: wrap;
 }
 
 .quote {
   font: 36px;
-  color: #1F2937;
   font-weight: light;
   font-style: italic;
   width: 400px;
