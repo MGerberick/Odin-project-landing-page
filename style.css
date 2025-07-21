@@ -74,3 +74,60 @@ body.content.aw.awimage {
 img {
   border-radius: 8px;
 }
+
+.ri {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 24px;
+  font: Roboto;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.ribody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+  gap: 48px;
+  padding: 24px;
+}
+
+.ri1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 120px;
+  flex-wrap: wrap;
+}
+
+.ri2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 120px;
+  flex-wrap: wrap;
+}
+
+.ri3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 120px;
+  flex-wrap: wrap;
+}
+
+.ri4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 120px;
+  flex-wrap: wrap;
+}
+
