@@ -66,3 +66,11 @@ button {
 .su {
   background-color: #3882F6;
 }
+
+body.content.aw.awimage {
+  border-radius: none;
+}
+
+img {
+  border-radius: 8px;
+}
