@@ -1,9 +1,5 @@
 body {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
   margin: 0px;
-  max-width: 1150px;
   font-family: Roboto;
 }
 
@@ -38,7 +34,6 @@ a {
 .aw {
   display: flex;
   padding: 48px;
-  font:Roboto;
   background: #1f2937;
   color: #F9FAF8;
   justify-content: space-between;
@@ -79,21 +74,12 @@ button {
   border-style: solid;
 }
 
-.su {
-  background-color: #3882F6;
-}
-
-.img1 {
+.riimage {
   display: flex;
   border-radius: 8px;
   border-color: #3882F6;
   border-style: solid;
   overflow: hidden;
-}
-
-.awimage {
-  border-style: none;
-  border-radius: none;
 }
 
 .ri {
@@ -180,4 +166,34 @@ button {
 .attribution {
   text-align: right;
   font-weight: bold;
+}
+
+.su {
+  background-color: #3882F6;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  padding: 50px;
+  margin: 50px;
+}
+
+.suheader {
+  font-size: large;
+  font-weight: bold;
+}
+
+.subody {
+  font-size: small;
+}
+
+.subutton {
+  height: 29px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 20px;
 }
