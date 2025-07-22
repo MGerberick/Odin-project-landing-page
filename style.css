@@ -1,10 +1,13 @@
 body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   margin: 0px;
   max-width: 1150px;
+  font-family: Roboto;
 }
 
 .header {
-  font:Roboto;
   background: #1f2937;
   color: #F9FAF8;
   font-size: 24px;
